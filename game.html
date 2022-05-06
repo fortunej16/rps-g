@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Rock paper scissors</title>
+	<link rel="stylesheet" type="text/css" href="styli.css">
+</head>
+<body>
+	<div class="container">
+		<h1>Rock <span> Paper </span> Scissors</h1>
+			<h2 class="pl">Play now!</h2>
+
+			<div class="userObject">
+				<h1 class="userName">User: 0</h1>
+				<img src = 'rock1.png' class = 'rocky'>
+			</div>
+
+
+		<div class="botObject">
+				<h1>Bot: 0</h1>
+
+			</div>
+
+			<div class="last">
+			<h3>Choose one</h3>	
+			<div class="objects">
+			<img src="rock.png" class="rock" onclick="turnOnrock()">
+			<img src="paper.png" class = "paper" onclick="turnOnpaper()">
+			<img src="scissors.png" class="Scissors" onclick="turnOnscissors()">
+			<a href="index.html" class="Refresh" onclick="refresh()">Refresh</a>		
+			</div>
+			<!-- <button class="rock">r</button>
+			<button class="paper">p</button>
+			<button class="Scissors">s</button> -->
+		</div>
+
+	</div>
+	<script src="main.js"></script>
+</body>
+</html>

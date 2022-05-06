@@ -1,0 +1,370 @@
+body{
+	background: rgb(46, 41, 71);
+	font-family: arial;margin: 0;
+	padding: 0;
+	box-sizing: border-box; 
+}
+.container{
+	text-align: center;
+}
+
+h1{
+	color: white;
+	font-size: 70px;
+	font-weight: bold;
+}
+
+h1:hover{
+	font-size:85px; 
+	transition: 2s ease;
+}
+
+span{
+	color: #f2bc94;
+}
+
+span:hover{
+	color: white;
+}
+
+h2{
+	margin-top: -20px;
+	color: white;
+	font-size: 20px;
+	font-weight: lighter;
+	animation: hh 0.8s ease-in-out infinite;
+}
+
+@keyframes hh{
+	from{
+		color: white;
+		font-weight: lighter;
+		font-size: 20px;
+	}
+
+	to{
+		color: #f2bc94;
+		font-size: 20.35px;
+	}
+}
+
+}
+h3{
+	color: white;
+	font-weight: lighter;
+	font-size: 15px;
+}
+
+.userObject{
+	position: absolute;
+	display: inline-block;
+	border: 2px solid #f2bc94;
+	width: 300px;
+	margin-left: -320px;
+	margin-right: 450px;
+	margin-top: 10px;
+}
+
+.botObject{
+	position: absolute;
+	display: inline-block;
+	border: 2px solid #f2bc94;
+	width: 300px;
+	margin-right: 10px;
+	margin-top: 10px;
+}
+
+.userObject h1{
+	font-size: 70px;
+	height: 250px;
+}
+
+.botObject h1{
+	font-size: 70px;
+	height: 250px;
+}
+
+.last{
+	position: absolute;
+	margin-top: 270px;
+	margin-left: 950px;
+}
+
+.rock{
+	font-size: 50px;
+	width: 100px;
+	margin-right: 400px;
+	margin-left: -600px;
+	border: 2px solid #f2bc94;
+	margin-top: 40px;
+	padding: 6px;
+	cursor: pointer;
+}
+.rock:hover{
+	width: 113px;
+	padding: 9px;
+	transition: 0.5s ease-in-out;
+}
+
+.paper{
+	font-size: 50px;
+	width: 100px;
+	margin-right: -315px;
+	margin-left: -800px;
+	border: 2px solid #f2bc94;
+	padding: 6px;
+	cursor: pointer;
+}
+.paper:hover{
+	width: 115px;
+	padding: 9px;
+	transition: 0.5s ease-in-out;
+}
+
+.Scissors{
+	font-size: 50px;
+	width: 100px;
+	margin-left: -50px;
+	border: 2px solid #f2bc94;
+	padding: 6px;
+	cursor: pointer;
+}
+.Scissors:hover{
+	width: 115px;
+	padding: 9px;
+	transition: 0.5s ease-in-out;
+}
+
+.last{
+	position: absolute;
+	bottom: 80px;
+	left: 520px;
+}
+
+
+h3{
+	color: #f2bc94;
+	margin-bottom: 0px;
+	margin-top: -10px;
+	margin-left: -550px;
+	height: 20px;
+	font-size: 30px;
+}
+
+.objects{
+	margin-left: 40px;
+}
+
+.Refresh{
+	font-size: 60px;
+	position: absolute;
+	bottom: -210px;
+	width: 2200px;
+	margin-left: -420px;
+	border: 2px solid black;
+	padding: 6px;
+	cursor: pointer;
+	background-color: #f2bc94;	
+	text-decoration: none;
+	color: rgb(46, 41, 71);
+}
+
+
+@media(max-width: 1200px){
+	/*body{
+	background: rgb(46, 41, 71);
+	font-family: arial;
+	margin: 0;
+	padding: 0;
+	box-sizing:; 
+	overflow: hidden;
+}*/
+.container{
+	/*text-align: center;*/
+}
+
+h1{
+	color: white;
+	font-size: 96px;
+	font-weight: bold;
+}
+
+h1:hover{
+	font-size: 100px; 
+	transition: 2s ease;
+}
+
+span{
+	color: #f2bc94;
+}
+
+span:hover{
+	color: white;
+}
+
+
+h2{
+	margin-top: -20px;
+	color: white;
+	font-size: 45px;
+	font-weight: lighter;
+	animation: hh 0.8s ease-in-out infinite;
+}
+
+@keyframes hh{
+	from{
+		color: white;
+		font-weight: lighter;
+		font-size: 45px;
+	}
+
+	to{
+		color: #f2bc94;
+		font-size: 46.35px;
+	}
+}
+
+}
+h3{
+	font-weight: lighter;
+	font-size: 15px;
+}
+
+.userObject{
+	position: absolute;
+	display: inline-block;
+	border: 4px solid #f2bc94;
+	width: 390px;
+	margin-left: -420px;
+	margin-right: 450px;
+	margin-top: 10px;
+}
+
+.botObject{
+	position: absolute;
+	display: inline-block;
+	border: 4px solid #f2bc94;
+	width: 390px;
+	margin-right: 8px;
+	margin-top: 10px;
+}
+
+.user h1{
+	font-size: 45px;
+	height: 250px;
+}
+
+.bot h1{
+	font-size: 45px;
+	height: 250px;
+}
+
+.last{
+	position: absolute;
+	top: 440px;
+	left: -200px;
+}
+
+.rock{
+	font-size: 50px;
+	width: 160px;
+	margin-right: 350px;
+	margin-left: -600px;
+	border: 2px solid #f2bc94;
+	margin-top: 40px;
+	padding: 6px;
+	cursor: pointer;
+}
+.rock:hover{
+	width: 163px;
+	padding: 9px;
+	transition: 0.5s ease-in-out;
+}
+
+.paper{
+	font-size: 50px;
+	width: 160px;
+	margin-right: -365px;
+	margin-left: -800px;
+	border: 2px solid #f2bc94;
+	padding: 6px;
+	cursor: pointer;
+}
+.paper:hover{
+	width: 165px;
+	padding: 9px;
+	transition: 0.5s ease-in-out;
+}
+
+.Scissors{
+	font-size: 50px;
+	width: 160px;
+	margin-left: -50px;
+	border: 2px solid #f2bc94;
+	padding: 6px;
+	cursor: pointer;
+}
+.Scissors:hover{
+	width: 165px;
+	padding: 9px;
+	transition: 0.5s ease-in-out;
+}
+
+
+h3{
+	color: #f2bc94;
+	margin-bottom: 0px;
+	margin-top: -10px;
+	margin-left: -550px;
+	height: 20px;
+	font-size: 60px;
+}
+
+.objects{
+	margin-left: 40px;
+	margin-top: 45px;
+}
+
+.Refresh{
+	font-size: 60px;
+	position: absolute;
+	bottom: -10px;
+	width: 1200px;
+	margin-left: -420px;
+	border: 2px solid black;
+	border-radius: 20px;
+	padding: 6px;
+	cursor: pointer;
+	background-color: #f2bc94;	
+	text-decoration: none;
+	color: rgb(46, 41, 71);
+}
+
+.Refresh:hover{
+	font-size: 70px;
+	transition: 2s ease;
+}
+
+.rocky{
+	display: ;
+	position: absolute;
+	top: 140px;
+	width: 200px;
+	left: 90px;
+}
+
+.rocky{
+	animation: ani 2s ease-in-out infinite;
+}
+
+@keyframes ani{
+	from{
+		left: 90px;
+		width: 200px;
+	}
+	to{
+		left: 100px;
+		width: 210px;
+	}
+}
+}
